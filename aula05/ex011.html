@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tab Team Scale</title>
+</head>
+<body>
+  <h1>Team Scale</h1>
+  <hr>
+
+  <section>
+    <h2>Scaling a PLayer</h2>
+    <label for="player-position">Player position: </label>
+    <input type="text" name="player-position" id="player-position"><br><br>
+    <label for="player-name">Player Name: </label>
+    <input type="text" name="player-name" id="player-name"><br><br>
+    <label for="shirt-number">Shirt Number: </label>
+    <input type="number" name="shirt-number" id="player-number"><br><br>
+    <button onclick="scalePlayer()">Scale</button>
+    <hr>
+  </section>
+  
+  <section>
+    <h2>Removing a PLayer</h2>
+    <label for="number-to-remove">Shirt Number: </label>
+    <input type="number" name="shirt-number" id="number-to-remove">
+    <button onclick="removePlayer()">Remove</button>
+    <hr>
+  </section>
+  <h2>Player Scale</h2>
+  <ul id="player-list">
+    <!--Will be the list of Scale Players-->
+  </ul>
+</body>
+</html>
+<script src="script.js"></script>
